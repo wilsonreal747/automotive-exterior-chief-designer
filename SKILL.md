@@ -18,5 +18,9 @@ description: 汽车外饰主设工作流。用于推进汽车预研、外饰体�
 | 出图、精修、画板比较 | [图像与画板](references/images.md) | 标注来源的候选、同尺度对照和淘汰理由 |
 | 新建或修改汇报 | [评审 PPT](references/decks.md) | 逐页框架、可编辑材料、渲染检查和明确的决策请求 |
 | 开始新项目或跨设备交接 | [项目工作单](assets/work-sheet.md) | 当前基准、来源、候选索引、未决事项 |
+| 研究竞品、生活方式、灯具或活动机构 | [研究与技术专项](references/research.md) | 行为证据、技术成熟度、可见结构、下一项验证 |
+| 草图 remix、效果图、局部迁移或整理 Vizcom | [设计工作室](references/studio.md) | 角色明确的参考组合、可比较的变量、预留结果位置的图版 |
+| 把 Gate 材料变成可讲的宽屏 PPT | [演讲与图像叙事](references/presentation-sequence.md) | 素材清单、讲述顺序、可读的分镜与可复核的比较页 |
+| 管理版本、向其他设计师交接或准备对外发布 | [交接与公开副本](references/handoff.md) | 基准索引、决定的适用范围、经检查的公开文件 |
 
 工具由使用者自己配置；这套指令本身不连接账户、不生成付费任务。优先使用指定工具，先确认环境能调用。实际画板操作见独立维护的 [Vizcom MCP 与配套 Skill](https://github.com/wilsonreal747/vizcom-mcp)。

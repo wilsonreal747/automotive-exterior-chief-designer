@@ -10,4 +10,13 @@ An agent skill for automotive exterior concept development, controlled image ite
 
 [技能入口](SKILL.md) · [工作单](assets/work-sheet.md) · [评审方法](references/decks.md) · [生图方法](references/images.md) · [四阶段交付](references/design-gates.md)
 
+## 按当前工作进入
+
+| 现在卡在哪里 | 打开后可以做什么 |
+| --- | --- |
+| 趋势讲得通，却找不到对应的用户动作 | 用行为卡记录观察和反例，用技术卡说明机制与集成条件。[研究方法](references/research.md) |
+| 几轮草图长得一样，或画风和体态相互干扰 | 指定每张参考能控制的内容，在同一底图上试不同断面，并为下一轮留足图位。[草图与效果图](references/studio.md) |
+| 材料有很多图，仍然很难讲给评审听 | 从真实切片走到分镜、结构证明、方案对照和待决事项。[演讲与图像叙事](references/presentation-sequence.md) |
+| 换人接手或准备对外演示 | 核对母版、五视图版本和设计决议的适用范围，检查公开副本。[交接方法](references/handoff.md) |
+
 **维护与反馈：** 请提供任务类型、预期、实际结果、可复现的虚构输入。不要附内部画板、母稿或同事信息。改方法时同步更新对应引用、示例和检查项；工具参数回到工具仓库维护。
