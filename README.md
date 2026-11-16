@@ -9,8 +9,7 @@
 | 从产品机会推到整车方向 | [预研阶段推进](skills/automotive-concept-workflow/SKILL.md) | 按已确认输入进入 Gate 1–4；需要意向图时调用参考库，需要形成比较稿时调用草图或改图技能。各阶段取回工作图与待决项。 |
 | 做一轮可对比的造型试验 | [草图 remix](skills/automotive-sketch-remix/SKILL.md) 或 [局部改图](skills/automotive-image-edit/SKILL.md) | 用户选用 Vizcom 时进入[图版 SOP](skills/automotive-vizcom-workbench/SKILL.md)。操作卡与输入就绪后，调用独立库的工作台技能，按任务编号取回结果。 |
 | 汽车影片、外饰视频与对标拉片 | [汽车视频导演](skills/automotive-video-director/SKILL.md) | 先找对标并核原片，再将镜头关系迁移为本车方案；按需调用剪辑、素材和动效引擎，导演与主设分别验收。 |
-| 把评审判断讲清楚 | [汽车视频导演](skills/automotive-video-director/SKILL.md) | 查找汽车影片对标、逐镜与视听拆解，制作分镜、调度剪辑和动效技能，验收设计保真与音画。 |
-| [外饰评审 PPT](skills/automotive-review-deck/SKILL.md) | 缺行为证据回 Gate 1，缺动作分镜回 Gate 2。素材和大纲齐备后，可调用第三方 PPT Master 制作，再由评审技能核对演讲和画面。 |
+| 把评审判断讲清楚 | [外饰评审 PPT](skills/automotive-review-deck/SKILL.md) | 缺行为证据回 Gate 1，缺动作分镜回 Gate 2。素材和大纲齐备后，可调用第三方 PPT Master 制作，再由评审技能核对演讲和画面。 |
 
 ### 跨仓库调用索引
 
@@ -45,6 +44,7 @@
 | [草图与多参考 remix](skills/automotive-sketch-remix/SKILL.md) | 用于铅笔、圆珠笔或数字草图的画风迁移与体量发散，控制画风、体态和设计供体。 |
 | [效果图与局部改图](skills/automotive-image-edit/SKILL.md) | 用于汽车效果图换环境、局部移植、蒙版精修或保持车身几何的影像校正。 |
 | [Vizcom 图版推敲](skills/automotive-vizcom-workbench/SKILL.md) | 用于整理 Vizcom 画板、复用底图资产、设置可比较的分支及预留右侧生成区域。 |
+| [汽车视频导演](skills/automotive-video-director/SKILL.md) | 查找汽车影片对标、逐镜与视听拆解，制作分镜、调度剪辑和动效技能，验收设计保真与音画。 |
 | [外饰评审 PPT](skills/automotive-review-deck/SKILL.md) | 用于汽车设计评审 PPT 的逐页叙事、配图、排版、讲稿、局部修订与导出验收。 |
 | [项目总览与决策](skills/automotive-project-status/SKILL.md) | 用于更新外饰项目全貌、节点依赖、变更责任或跨专业决策。 |
 | [设计资产与版本整理](skills/automotive-asset-organization/SKILL.md) | 用于整理汽车项目文件、识别设计图用途、成套命名、去重与路径索引。 |
