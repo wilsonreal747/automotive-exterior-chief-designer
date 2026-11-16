@@ -7,7 +7,21 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "skills"
 LINK = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 
+def check_tables(document):
+    """Catch unequal Markdown table row widths; ignore escaped pipes."""
+    width = None
+    for line in document.read_text(encoding="utf-8").splitlines():
+        if line.strip().startswith("|"):
+            count = len(re.findall(r"(?<!\\)\|", line))
+            if width is not None and count != width:
+                raise ValueError(f"{document}: inconsistent table row: {line}")
+            width = count
+        else:
+            width = None
+
+
 def check_links(document, boundary):
+    check_tables(document)
     for target in LINK.findall(document.read_text(encoding="utf-8")):
         if target.startswith(("https://", "#")):
             continue
