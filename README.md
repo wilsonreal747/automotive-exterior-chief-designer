@@ -2,6 +2,23 @@
 
 17 项可独立安装的技能，覆盖汽车外饰预研、设计推敲、评审和交接。每项技能有自己的触发描述、工作步骤、交付和验收方式。读者可以直接打开对应的技能，Agent 可以按任务调用。
 
+## 从任务进入
+
+| 任务 | 从哪份 SOP 开始 | 在哪一步调用其他能力 |
+| --- | --- | --- |
+| 从产品机会推到整车方向 | [预研阶段推进](skills/automotive-concept-workflow/SKILL.md) | 按已确认输入进入 Gate 1–4；需要意向图时调用参考库，需要形成比较稿时调用草图或改图技能。各阶段取回工作图与待决项。 |
+| 做一轮可对比的造型试验 | [草图 remix](skills/automotive-sketch-remix/SKILL.md) 或 [局部改图](skills/automotive-image-edit/SKILL.md) | 用户选用 Vizcom 时进入[图版 SOP](skills/automotive-vizcom-workbench/SKILL.md)。操作卡与输入就绪后，调用独立库的工作台技能，按任务编号取回结果。 |
+| 把评审判断讲清楚 | [外饰评审 PPT](skills/automotive-review-deck/SKILL.md) | 缺行为证据回 Gate 1，缺动作分镜回 Gate 2。素材和大纲齐备后，可调用第三方 PPT Master 制作，再由评审技能核对演讲和画面。 |
+
+### 跨仓库调用索引
+
+| 调用方 | 实现和维护位置 | 交接内容 |
+| --- | --- | --- |
+| 本库的 Vizcom 图版 SOP | 作者独立维护的 [Vizcom 工作台技能](https://github.com/wilsonreal747/vizcom-mcp/blob/a21d099781778590f3478b782a737ecad417f565/skills/vizcom-workbench/SKILL.md) 与 [MCP 工具库](https://github.com/wilsonreal747/vizcom-mcp) | 输入为目标画板、授权动作、按顺序排列的底图与参考；回传实际节点、任务或结果编号。整理操作按内容和引用回读验收。 |
+| 本库的评审 PPT SOP | 可选第三方 [PPT Master 技能](https://github.com/hugohe3/ppt-master/blob/3af3e8ef774c4d67ee57e1306d9256d08c9ee1bf/skills/ppt-master/SKILL.md)，由上游维护 | 输入为页面大纲、可用原图、画幅与样板；取回可编辑 PPT 和预览，检查图像与论点是否对应。 |
+
+上表的技能链接指向本次核对的源码快照。具体工具的安装与升级由各自仓库说明。[子技能迁移和依赖维护](MAINTAINING.md#跨仓库维护)
+
 ## 安装与试用
 
 从 [skills](skills) 选取所需的子目录，将整个子目录（连同随附资源）复制到宿主的技能目录，保留目录名。整套安装时复制这 17 个子目录，刷新宿主并检查技能列表。旧的单入口安装可先备份，再用同名主设子目录替换，按需添加专项。付费生图工具由使用者自行配置。
