@@ -5,6 +5,8 @@ description: 用于整理 Vizcom 画板、复用底图资产、设置可比较�
 
 # Vizcom 图版推敲
 
+视频镜头使用独立维护的 [Animate 流程](https://github.com/wilsonreal747/vizcom-mcp/blob/main/docs/ANIMATE.md)：本地视频上传与图片导入 → 素材连接 → 画幅、Fast/Pro、音频及秒数设置 → 单次生成 → 查询原输出 ID → MP4 下载。先发现实际工具；节点修改不等于生成，输出可播放不等于设计认可。影片表达转交 automotive-video-director；参数、格式限制和任务恢复只在工具仓库维护。
+
 本包负责汽车设计试验的分区、比较和验收。需要读写实际画板时调用独立维护的 [vizcom-workbench 技能](https://github.com/wilsonreal747/vizcom-mcp/blob/a21d099781778590f3478b782a737ecad417f565/skills/vizcom-workbench/SKILL.md)，将画板、基准、输入顺序、目标操作和预计批量传入。先核对宿主已发现的操作和认证状态。返回节点或输出编号，回读实际结果再进入下一轮。
 
 版本核对：链接快照的 MCP 包声明为 0.1.0。下方留位脚本采用 0.2.0 的显式首图坐标和横向间距约定。使用其它版本或客户端自动落位时，先用对应实现或已有结果核对坐标与间距；未校准时只能给出预计占地。[上游版本声明](https://github.com/wilsonreal747/vizcom-mcp/blob/a21d099781778590f3478b782a737ecad417f565/package.json)
