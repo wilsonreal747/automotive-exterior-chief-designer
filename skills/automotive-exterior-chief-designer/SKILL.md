@@ -17,4 +17,4 @@ description: 负责整车外饰方向把控、评审准备、影片表达和跨�
 | 选参考、更新资讯、研究可见机制、诊断灯具 | `automotive-reference-library`、`automotive-design-news`、`automotive-technology-insight`、`automotive-lighting-design` |
 | 画风与体块发散、画板变量和预留区 | `automotive-sketch-remix`、`automotive-vizcom-workbench` |
 | 文件版本与目录、换人换设备接续 | `automotive-asset-organization`、`automotive-design-handoff` |
-| 汽车影片、外饰视频对标与拉片、镜头和视听表达 | `automotive-video-director`；主设提供设计基准与表达目标，导演返回对标证据、分镜/工程及视听验收 |
+| 汽车影片、外饰视频对标与拉片、镜头和视听表达 | `automotive-video-director`；主设提供在用车型、设计冻结项与表达目标；已有片子的改版，导演按镜头编号回查设计、运动、叙事和音画锚点，返回整片与可编辑工程 |
